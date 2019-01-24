@@ -4,4 +4,4 @@ function fun( x,  y)
 		return y;  
 	return fun(x - 1,  x + y);
 }
-fun(4,3)
+console.log(fun(4,3))
